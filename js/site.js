@@ -39,30 +39,6 @@
   if (closeBtn) closeBtn.addEventListener("click", closeMenu);
   if (overlay) overlay.addEventListener("click", closeMenu);
 
-  // 18+ age gate (shown once per browser via localStorage)
-  var gate = document.getElementById("age-gate");
-  if (gate) {
-    var verified = false;
-    try { verified = localStorage.getItem("lga_age_verified") === "yes"; } catch (e) {}
-    if (!verified) {
-      gate.classList.remove("hidden");
-      document.body.classList.add("no-scroll");
-    }
-    var yesBtn = document.getElementById("age-gate-yes");
-    var noBtn = document.getElementById("age-gate-no");
-    if (yesBtn) {
-      yesBtn.addEventListener("click", function () {
-        try { localStorage.setItem("lga_age_verified", "yes"); } catch (e) {}
-        gate.classList.add("hidden");
-        document.body.classList.remove("no-scroll");
-      });
-    }
-    if (noBtn) {
-      noBtn.addEventListener("click", function () {
-        window.location.href = "https://www.google.com";
-      });
-    }
-  }
 
   // Image lightbox — any element with [data-lightbox-src] opens #image-lightbox at full size
   var lightbox = document.getElementById("image-lightbox");
