@@ -21,31 +21,14 @@
 <meta name="twitter:image" content="https://lachgasantwerpen.be/assets/img/lachgastank-2kg-infographic.jpg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="icon" href="/favicon.ico" sizes="32x32"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="stylesheet" href="/css/tailwind.css"/>
 <link rel="stylesheet" href="/css/site.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lachgasantwerpen.be/"},{"@type":"ListItem","position":2,"name":"Privacy","item":"https://lachgasantwerpen.be/privacy/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Privacybeleid | Lachgas Antwerpen","url":"https://lachgasantwerpen.be/privacy/","inLanguage":"nl-BE","dateModified":"2026-01-01"}</script>
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          brand: { 50:'#f5f3ff',100:'#ede9fe',200:'#ddd6fe',300:'#c4b5fd',400:'#a78bfa',500:'#8b5cf6',600:'#7c3aed',700:'#6d28d9',800:'#5b21b6',900:'#4c1d95' },
-          cta: { 500:'#ef4444',600:'#dc2626',700:'#b91c1c' },
-          whatsapp: { 500:'#25D366',600:'#20BD5A',700:'#1DA851' },
-          surface: { 50:'#fafafa',100:'#f5f5f5',200:'#e5e5e5' }
-        },
-        fontFamily: { sans: ['Inter','system-ui','sans-serif'], heading: ['"Plus Jakarta Sans"','system-ui','sans-serif'] },
-        boxShadow: {
-          soft: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
-          card: '0 4px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
-          glow: '0 0 40px rgba(139, 92, 246, 0.2)'
-        }
-      }
-    }
-  }
-</script>
 </head>
 <body class="font-sans antialiased bg-white text-gray-900">
 
@@ -68,7 +51,7 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.42 1.26 4.86L2 22l5.35-1.31c1.4.75 2.98 1.17 4.69 1.17 5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2z"/></svg>
         WhatsApp ons
       </a>
-      <button id="mobile-menu-btn" class="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-200 lg:hidden" aria-label="Menu">
+      <button id="mobile-menu-btn" class="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-200 lg:hidden" aria-label="Menu openen" aria-expanded="false" aria-controls="mobile-panel">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
     </div>
