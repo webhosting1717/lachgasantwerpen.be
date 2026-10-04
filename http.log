@@ -1,0 +1,15 @@
+Serving HTTP on 127.0.0.1 port 8765 (http://127.0.0.1:8765/) ...
+127.0.0.1 - - [29/Sep/2026 14:14:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:16] "GET /fonts/bebas-neue-latin.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:16] "GET /assets/site.css?v=20260929 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:17] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:17] "GET /bezorggebied/amsterdam-noord/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:18] "GET /lachgas-tanks/2kg/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:19] "GET /lachgas-informatie/veilig-gebruik/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:20] "GET /assets/site.css?v=20260929 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:20] "GET /fonts/bebas-neue-latin.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:20] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:21] "GET /bezorggebied/amsterdam-noord/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:22] "GET /lachgas-tanks/2kg/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 14:14:23] "GET /lachgas-informatie/veilig-gebruik/ HTTP/1.1" 200 -
